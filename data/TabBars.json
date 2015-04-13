@@ -1,0 +1,52 @@
+{
+    "name": "Tab Bars",
+    "repos": [
+        {
+            "name": "MinimalTabBar",
+            "url": "https://github.com/jamesdunay/MinimalTabBar",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MinimalTabBar1.gif" }
+            ]
+        },
+        {
+            "name": "M13InfiniteTabBar",
+            "url": "https://github.com/Marxon13/M13InfiniteTabBar",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "M13InfiniteTabBar1.gif", "size": "49%" },
+                { "name": "M13InfiniteTabBar2.gif", "size": "49%" },
+                { "name": "M13InfiniteTabBar3.png", "size": "49%" },
+            ]
+        },
+        {
+            "name": "FoldingTabBar.iOS",
+            "url": "https://github.com/Yalantis/FoldingTabBar.iOS",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "FoldingTabBar.iOS1.gif" }
+            ]
+        },
+        {
+            "name": "GGTabBar",
+            "url": "https://github.com/Goles/GGTabBar",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "GGTabBar1.png" }
+            ]
+        },
+        {
+            "name": "BFPaperTabBarController",
+            "url": "https://github.com/bfeher/BFPaperTabBarController",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "BFPaperTabBarController1.gif" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Photo and Video",
+    "repos": [
+        {
+            "name": "MWPhotoBrowser",
+            "url": "https://github.com/mwaterfall/MWPhotoBrowser",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MWPhotoBrowser1.png", "size": "49%" },
+                { "name": "MWPhotoBrowser2.png", "size": "49%" },
+                { "name": "MWPhotoBrowser3.png", "size": "49%" },
+                { "name": "MWPhotoBrowser4.png", "size": "49%" }
+            ]
+        },
+        {
+            "name": "XCDYouTubeKit",
+            "url": "https://github.com/0xced/XCDYouTubeKit",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "XCDYouTubeKit1.png" }
+            ]
+        },
+        {
+            "name": "MHVideoPhotoGallery",
+            "url": "https://github.com/mariohahn/MHVideoPhotoGallery",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MHVideoPhotoGallery1.gif", "size": "49%" },
+                { "name": "MHVideoPhotoGallery2.gif", "size": "49%" },
+                { "name": "MHVideoPhotoGallery3.gif", "size": "49%" },
+                { "name": "MHVideoPhotoGallery4.gif", "size": "49%" }
+            ]
+        },
+        {
+            "name": "EBPhotoPages",
+            "url": "https://github.com/EddyBorja/EBPhotoPages",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "EBPhotoPages1.gif", "size": "49%" },
+                { "name": "EBPhotoPages2.gif", "size": "49%" },
+                { "name": "EBPhotoPages3.gif", "size": "49%" },
+                { "name": "EBPhotoPages4.gif", "size": "49%" }
+            ]
+        },
+        {
+            "name": "ASMediaFocusManager",
+            "url": "https://github.com/autresphere/ASMediaFocusManager",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "ASMediaFocusManager1.gif" },
+                { "name": "ASMediaFocusManager2.gif" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "RefreshControls",
+    "repos": [
+        {
+            "name": "CBStoreHouseRefreshControl",
+            "url": "https://github.com/coolbeet/CBStoreHouseRefreshControl",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "CBStoreHouseRefreshControl1.gif" },
+                { "name": "CBStoreHouseRefreshControl2.gif" }
+            ]
+        },
+        {
+            "name": "UzysAnimatedGifPullToRefresh",
+            "url": "https://github.com/uzysjung/UzysAnimatedGifPullToRefresh",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "UzysAnimatedGifPullToRefresh1.gif" }
+            ]
+        },
+        {
+            "name": "BOZPongRefreshControl",
+            "url": "https://github.com/boztalay/BOZPongRefreshControl",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "BOZPongRefreshControl1.gif" }
+            ]
+        },
+        {
+            "name": "mntpulltoreact",
+            "url": "https://github.com/mentionapp/mntpulltoreact",
+            "license": "Apache v2",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MNTPullToReact1.gif" }
+            ]
+        },
+        {
+            "name": "UzysCircularProgressPullToRefresh",
+            "url": "https://github.com/uzysjung/UzysCircularProgressPullToRefresh",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "UzysCircularProgressPullToRefresh1.gif" }
+            ]
+        },
+        {
+            "name": "PullToRefreshCoreText",
+            "url": "https://github.com/cemolcay/PullToRefreshCoreText",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "PullToRefreshCoreText1.gif" }
+            ]
+        },
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Badges",
+    "repos": [
+        {
+            "name": "RKNotificationHub",
+            "url": "https://github.com/cwRichardKim/RKNotificationHub",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "RKNotificationHub1.gif" }
+            ]
+        },
+        {
+            "name": "BBBadgeBarButtonItem",
+            "url": "https://github.com/TanguyAladenise/BBBadgeBarButtonItem",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "BBBadgeBarButtonItem1.png" }
+            ]
+        },
+        {
+            "name": "JSBadgeView",
+            "url": "https://github.com/JaviSoto/JSBadgeView",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "JSBadgeView1.png" },
+                { "name": "JSBadgeView2.png" }
+            ]
+        }
+    ]
+}

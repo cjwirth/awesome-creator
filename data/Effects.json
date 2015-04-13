@@ -1,0 +1,23 @@
+{
+    "name": "Effects",
+    "repos": [
+        {
+            "name": "FLAnimatedImage",
+            "url": "https://github.com/Flipboard/FLAnimatedImage",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "FLAnimatedImage1.gif", "size": "49%" }
+            ]
+        },
+        {
+            "name": "PulsingHalo",
+            "url": "https://github.com/shu223/PulsingHalo",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "PulsingHalo1.gif" }
+            ]
+        }
+    ]
+}

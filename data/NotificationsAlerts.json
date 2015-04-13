@@ -1,0 +1,65 @@
+{
+    "name": "Notifications and Alerts",
+    "repos": [
+        {
+            "name": "TSMessages",
+            "url": "https://github.com/KrauseFx/TSMessages",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "TSMessages1.png" },
+                { "name": "TSMessages2.png" },
+                { "name": "TSMessages3.png" }
+
+            ]
+        },
+        {
+            "name": "CRToast",
+            "url": "https://github.com/cruffenach/CRToast",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "CRToast1.gif" }
+            ]
+        },
+        {
+            "name": "TWMessageBarManager",
+            "url": "https://github.com/terryworona/TWMessageBarManager",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "TWMessageBarManager1.png" }
+            ]
+        },
+        {
+            "name": "RKDropdownAlert",
+            "url": "https://github.com/cwRichardKim/RKDropdownAlert",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "RKDropdownAlert1.gif", "size": "49%" },
+                { "name": "RKDropdownAlert2.gif", "size": "49%" }
+            ]
+        },
+        {
+            "name": "SimpleAlert",
+            "url": "https://github.com/KyoheiG3/SimpleAlert",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "SimpleAlert1.gif" }
+            ]
+        },
+        {
+            "name": "JFMinimalNotifications",
+            "url": "https://github.com/atljeremy/JFMinimalNotifications",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "JFMinimalNotifications1.gif", "size": "49%" },
+                { "name": "JFMinimalNotifications2.gif", "size": "49%" },
+                { "name": "JFMinimalNotifications3.jpeg" }
+            ]
+        },
+    ]
+}

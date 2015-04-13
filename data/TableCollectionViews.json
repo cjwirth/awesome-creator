@@ -1,0 +1,73 @@
+{
+    "name": "Table/Collection Views",
+    "repos": [
+        {
+            "name": "MPSkewed",
+            "url": "https://github.com/MP0w/MPSkewed",
+            "license": "BSD-3",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MPSkewed1.gif", "size": "49%" },
+                { "name": "MPSkewed2.gif", "size": "49%" }
+            ]
+        },
+        {
+            "name": "RATreeView",
+            "url": "https://github.com/Augustyniak/RATreeView",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "RATreeView1.gif", "size": "75%" }
+            ]
+        },
+        {
+            "name": "MosaicLayout",
+            "url": "https://github.com/betzerra/MosaicLayout",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MosaicLayout1.png" }
+            ]
+        },
+        {
+            "name": "DSDynamicScrollView",
+            "url": "https://github.com/damirstuhec/DSDynamicScrollView",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "DSDynamicScrollView1.gif" }
+            ]
+        },
+        {
+            "name": "CSStickyHeaderFlowLayout",
+            "url": "https://github.com/jamztang/CSStickyHeaderFlowLayout",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "CSStickyHeaderFlowLayout1.gif", "size": "49%" },
+                { "name": "CSStickyHeaderFlowLayout2.gif", "size": "49%" },
+                { "name": "CSStickyHeaderFlowLayout3.gif", "size": "49%" }
+            ]
+        },
+        {
+            "name": "BLKFlexibleHeightBar",
+            "url": "https://github.com/jamztang/BLKFlexibleHeightBar",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "BLKFlexibleHeightBar1.gif", "size": "49%" },
+                { "name": "BLKFlexibleHeightBar2.gif", "size": "49%" },
+            ]
+        },
+        {
+            "name": "SAParallaxViewControllerSwift",
+            "url": "https://github.com/szk-atmosphere/SAParallaxViewControllerSwift",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "SAParallaxViewControllerSwift1.gif" },
+                { "name": "SAParallaxViewControllerSwift2.gif" }
+            ]
+        },
+    ]
+}
