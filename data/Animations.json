@@ -50,7 +50,7 @@
             "license": "MIT",
             "language": "Obj-C",
             "images": [
-                { "name": "KLCPopup11.gif", "size": "49%" }
+                { "name": "KLCPopup1.gif", "size": "49%" }
             ]
         },
         {
@@ -60,7 +60,7 @@
             "license": "MIT",
             "language": "Obj-C",
             "images": [
-                { "name": "MZFormSheetController1.gif", "size": "49%" },
+                { "name": "MZFormSheetController1.png", "size": "49%" },
                 { "name": "MZFormSheetController2.gif", "size": "49%" }
             ]
         }

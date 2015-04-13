@@ -44,10 +44,10 @@
             "license": "MIT",
             "language": "Obj-C",
             "images": [
-                { "name": "EBPhotoPages1.gif", "size": "49%" },
-                { "name": "EBPhotoPages2.gif", "size": "49%" },
-                { "name": "EBPhotoPages3.gif", "size": "49%" },
-                { "name": "EBPhotoPages4.gif", "size": "49%" }
+                { "name": "EBPhotoPages1.png", "size": "49%" },
+                { "name": "EBPhotoPages2.png", "size": "49%" },
+                { "name": "EBPhotoPages3.png", "size": "49%" },
+                { "name": "EBPhotoPages4.png", "size": "49%" }
             ]
         },
         {
