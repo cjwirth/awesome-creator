@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "CBStoreHouseRefreshControl",
+            "author": "coolbeet",
             "url": "https://github.com/coolbeet/CBStoreHouseRefreshControl",
             "license": "MIT",
             "language": "Obj-C",
@@ -13,6 +14,7 @@
         },
         {
             "name": "UzysAnimatedGifPullToRefresh",
+            "author": "uzysjung",
             "url": "https://github.com/uzysjung/UzysAnimatedGifPullToRefresh",
             "license": "MIT",
             "language": "Obj-C",
@@ -22,6 +24,7 @@
         },
         {
             "name": "BOZPongRefreshControl",
+            "author": "boztalay",
             "url": "https://github.com/boztalay/BOZPongRefreshControl",
             "license": "MIT",
             "language": "Obj-C",
@@ -31,6 +34,7 @@
         },
         {
             "name": "mntpulltoreact",
+            "author": "mentionapp",
             "url": "https://github.com/mentionapp/mntpulltoreact",
             "license": "Apache v2",
             "language": "Obj-C",
@@ -40,6 +44,7 @@
         },
         {
             "name": "UzysCircularProgressPullToRefresh",
+            "author": "uzysjung",
             "url": "https://github.com/uzysjung/UzysCircularProgressPullToRefresh",
             "license": "MIT",
             "language": "Obj-C",
@@ -49,6 +54,7 @@
         },
         {
             "name": "PullToRefreshCoreText",
+            "author": "cemolcay",
             "url": "https://github.com/cemolcay/PullToRefreshCoreText",
             "license": "MIT",
             "language": "Obj-C",

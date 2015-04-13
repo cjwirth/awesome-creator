@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "FLAnimatedImage",
+            "author": "Flipboard",
             "url": "https://github.com/Flipboard/FLAnimatedImage",
             "license": "MIT",
             "language": "Obj-C",
@@ -12,6 +13,7 @@
         },
         {
             "name": "PulsingHalo",
+            "author": "shu223",
             "url": "https://github.com/shu223/PulsingHalo",
             "license": "MIT",
             "language": "Obj-C",

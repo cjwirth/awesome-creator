@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "MPSkewed",
+            "author": "MP0w",
             "url": "https://github.com/MP0w/MPSkewed",
             "license": "BSD-3",
             "language": "Obj-C",
@@ -13,6 +14,7 @@
         },
         {
             "name": "RATreeView",
+            "author": "Augustyniak",
             "url": "https://github.com/Augustyniak/RATreeView",
             "license": "MIT",
             "language": "Obj-C",
@@ -22,6 +24,7 @@
         },
         {
             "name": "MosaicLayout",
+            "author": "betzerra",
             "url": "https://github.com/betzerra/MosaicLayout",
             "license": "MIT",
             "language": "Obj-C",
@@ -31,6 +34,7 @@
         },
         {
             "name": "DSDynamicScrollView",
+            "author": "damirstuhec",
             "url": "https://github.com/damirstuhec/DSDynamicScrollView",
             "license": "MIT",
             "language": "Obj-C",
@@ -40,6 +44,7 @@
         },
         {
             "name": "CSStickyHeaderFlowLayout",
+            "author": "jamztang",
             "url": "https://github.com/jamztang/CSStickyHeaderFlowLayout",
             "license": "MIT",
             "language": "Obj-C",
@@ -51,7 +56,8 @@
         },
         {
             "name": "BLKFlexibleHeightBar",
-            "url": "https://github.com/jamztang/BLKFlexibleHeightBar",
+            "author": "bryankeller",
+            "url": "https://github.com/bryankeller/BLKFlexibleHeightBar",
             "license": "MIT",
             "language": "Obj-C",
             "images": [
@@ -61,6 +67,7 @@
         },
         {
             "name": "SAParallaxViewControllerSwift",
+            "author": "szk-atmosphere",
             "url": "https://github.com/szk-atmosphere/SAParallaxViewControllerSwift",
             "license": "MIT",
             "language": "Swift",

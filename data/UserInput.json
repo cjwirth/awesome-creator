@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "RKRichTextView",
+            "author": "ren6",
             "url": "https://github.com/ren6/RKRichTextView",
             "license": "MIT",
             "language": "Obj-C",
@@ -12,6 +13,7 @@
         },
         {
             "name": "ZSSRichTextEditor",
+            "author": "nnhubbard",
             "url": "https://github.com/nnhubbard/ZSSRichTextEditor",
             "license": "MIT",
             "language": "Obj-C",
@@ -21,6 +23,7 @@
         },
         {
             "name": "RichEditorView",
+            "author": "cjwirth",
             "url": "https://github.com/cjwirth/RichEditorView",
             "license": "BSD-3",
             "language": "Swift",
@@ -30,6 +33,7 @@
         },
         {
             "name": "TextFieldEffects",
+            "author": "raulriera",
             "url": "https://github.com/raulriera/TextFieldEffects",
             "license": "MIT",
             "language": "Swift",

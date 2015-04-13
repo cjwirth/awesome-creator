@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "AnimatedTransitionGallery",
+            "author": "shu223",
             "url": "https://github.com/shu223/AnimatedTransitionGallery",
             "license": "Unknown",
             "language": "Obj-C",
@@ -12,6 +13,7 @@
         },
         {
             "name": "RZTransitions",
+            "author": "Raizlabs",
             "url": "https://github.com/Raizlabs/RZTransitions",
             "license": "MIT",
             "language": "Obj-C",
@@ -21,6 +23,7 @@
         },
         {
             "name": "DCAnimationKit",
+            "author": "daltoniam",
             "url": "https://github.com/daltoniam/DCAnimationKit",
             "license": "Apache v2",
             "language": "Obj-C",
@@ -31,6 +34,7 @@
         },
         {
             "name": "PMTween",
+            "author": "poetmountain",
             "url": "https://github.com/poetmountain/PMTween",
             "license": "MIT",
             "language": "Obj-C",
@@ -41,6 +45,7 @@
         },
         {
             "name": "KLCPopup",
+            "author": "jmascia",
             "url": "https://github.com/jmascia/KLCPopup",
             "license": "MIT",
             "language": "Obj-C",
@@ -50,6 +55,7 @@
         },
         {
             "name": "MZFormSheetController",
+            "author": "m1entus",
             "url": "https://github.com/m1entus/MZFormSheetController",
             "license": "MIT",
             "language": "Obj-C",

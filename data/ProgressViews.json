@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "MBProgressHUD",
+            "author": "jdg",
             "url": "https://github.com/jdg/MBProgressHUD",
             "license": "MIT",
             "language": "Obj-C",
@@ -18,6 +19,7 @@
         },
         {
             "name": "MRProgress",
+            "author": "mrackwitz",
             "url": "https://github.com/mrackwitz/MRProgress",
             "license": "MIT",
             "language": "Obj-C",
@@ -29,6 +31,7 @@
         },
         {
             "name": "M13ProgressSuite",
+            "author": "Marxon13",
             "url": "https://github.com/Marxon13/M13ProgressSuite",
             "license": "MIT",
             "language": "Obj-C",
@@ -45,6 +48,7 @@
         },
         {
             "name": "FFCircularProgressView",
+            "author": "elbryan",
             "url": "https://github.com/elbryan/FFCircularProgressView",
             "license": "MIT",
             "language": "Obj-C",

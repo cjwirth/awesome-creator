@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "TSMessages",
+            "author": "KrauseFx",
             "url": "https://github.com/KrauseFx/TSMessages",
             "license": "MIT",
             "language": "Obj-C",
@@ -15,6 +16,7 @@
         },
         {
             "name": "CRToast",
+            "author": "cruffenach",
             "url": "https://github.com/cruffenach/CRToast",
             "license": "MIT",
             "language": "Obj-C",
@@ -24,6 +26,7 @@
         },
         {
             "name": "TWMessageBarManager",
+            "author": "terryworona",
             "url": "https://github.com/terryworona/TWMessageBarManager",
             "license": "MIT",
             "language": "Obj-C",
@@ -33,6 +36,7 @@
         },
         {
             "name": "RKDropdownAlert",
+            "author": "cwRichardKim",
             "url": "https://github.com/cwRichardKim/RKDropdownAlert",
             "license": "MIT",
             "language": "Obj-C",
@@ -43,6 +47,7 @@
         },
         {
             "name": "SimpleAlert",
+            "author": "KyoheiG3",
             "url": "https://github.com/KyoheiG3/SimpleAlert",
             "license": "MIT",
             "language": "Swift",
@@ -52,6 +57,7 @@
         },
         {
             "name": "JFMinimalNotifications",
+            "author": "atljeremy",
             "url": "https://github.com/atljeremy/JFMinimalNotifications",
             "license": "MIT",
             "language": "Obj-C",

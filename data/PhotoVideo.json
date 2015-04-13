@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "MWPhotoBrowser",
+            "author": "mwaterfall",
             "url": "https://github.com/mwaterfall/MWPhotoBrowser",
             "license": "MIT",
             "language": "Obj-C",
@@ -15,6 +16,7 @@
         },
         {
             "name": "XCDYouTubeKit",
+            "author": "0xced",
             "url": "https://github.com/0xced/XCDYouTubeKit",
             "license": "MIT",
             "language": "Obj-C",
@@ -24,6 +26,7 @@
         },
         {
             "name": "MHVideoPhotoGallery",
+            "author": "mariohahn",
             "url": "https://github.com/mariohahn/MHVideoPhotoGallery",
             "license": "MIT",
             "language": "Obj-C",
@@ -36,6 +39,7 @@
         },
         {
             "name": "EBPhotoPages",
+            "author": "EddyBorja", 
             "url": "https://github.com/EddyBorja/EBPhotoPages",
             "license": "MIT",
             "language": "Obj-C",
@@ -48,6 +52,7 @@
         },
         {
             "name": "ASMediaFocusManager",
+            "author": "autresphere",
             "url": "https://github.com/autresphere/ASMediaFocusManager",
             "license": "MIT",
             "language": "Obj-C",

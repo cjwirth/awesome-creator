@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "RKNotificationHub",
+            "author": "cwRichardKim",
             "url": "https://github.com/cwRichardKim/RKNotificationHub",
             "license": "MIT",
             "language": "Obj-C",
@@ -12,6 +13,7 @@
         },
         {
             "name": "BBBadgeBarButtonItem",
+            "author": "TanguyAladenise",
             "url": "https://github.com/TanguyAladenise/BBBadgeBarButtonItem",
             "license": "MIT",
             "language": "Obj-C",
@@ -21,6 +23,7 @@
         },
         {
             "name": "JSBadgeView",
+            "author": "JaviSoto",
             "url": "https://github.com/JaviSoto/JSBadgeView",
             "license": "MIT",
             "language": "Obj-C",

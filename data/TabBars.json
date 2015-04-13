@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "MinimalTabBar",
+            "author": "jamesdunay",
             "url": "https://github.com/jamesdunay/MinimalTabBar",
             "license": "MIT",
             "language": "Obj-C",
@@ -12,6 +13,7 @@
         },
         {
             "name": "M13InfiniteTabBar",
+            "author": "Marxon13",
             "url": "https://github.com/Marxon13/M13InfiniteTabBar",
             "license": "MIT",
             "language": "Obj-C",
@@ -23,6 +25,7 @@
         },
         {
             "name": "FoldingTabBar.iOS",
+            "author": "Yalantis",
             "url": "https://github.com/Yalantis/FoldingTabBar.iOS",
             "license": "MIT",
             "language": "Obj-C",
@@ -32,6 +35,7 @@
         },
         {
             "name": "GGTabBar",
+            "author": "Goles",
             "url": "https://github.com/Goles/GGTabBar",
             "license": "MIT",
             "language": "Obj-C",
@@ -41,6 +45,7 @@
         },
         {
             "name": "BFPaperTabBarController",
+            "author": "bfeher",
             "url": "https://github.com/bfeher/BFPaperTabBarController",
             "license": "MIT",
             "language": "Obj-C",

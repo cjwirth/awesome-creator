@@ -3,6 +3,7 @@
     "repos": [
         {
             "name": "RESideMenu",
+            "author": "romaonthego",
             "url": "https://github.com/romaonthego/RESideMenu",
             "license": "MIT",
             "language": "Obj-C",
@@ -12,6 +13,7 @@
         },
         {
             "name": "REFrostedViewController",
+            "author": "romaonthego",
             "url": "https://github.com/romaonthego/REFrostedViewController",
             "license": "MIT",
             "language": "Obj-C",
@@ -21,6 +23,7 @@
         },
         {
             "name": "TWTSideMenuViewController",
+            "author": "twotoasters",
             "url": "https://github.com/twotoasters/TWTSideMenuViewController",
             "license": "MIT",
             "language": "Obj-C",
@@ -30,6 +33,7 @@
         },
         {
             "name": "AMSlideMenu",
+            "author": "SocialObjects-Software",
             "url": "https://github.com/SocialObjects-Software/AMSlideMenu",
             "license": "MIT",
             "language": "Obj-C",
