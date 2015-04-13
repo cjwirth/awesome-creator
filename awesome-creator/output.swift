@@ -16,10 +16,26 @@ func readFile(filename: String) -> String {
 func licenses() -> String { return readFile("./LICENSES.md") }
 func template() -> String { return readFile("./TEMPLATE.md") }
 
-
+func writeToFile(file: String, string: String) {
+    let fm = NSFileManager.defaultManager()
+    if !fm.fileExistsAtPath("./output") {
+        fm.createDirectoryAtPath("./output", withIntermediateDirectories: true, attributes: nil, error: nil)
+    }
+    if !fm.fileExistsAtPath("./output/pages") {
+        fm.createDirectoryAtPath("./output/pages", withIntermediateDirectories: true, attributes: nil, error: nil)
+    }
+    
+    let data = string.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
+    if let finished = data?.writeToFile("./output/"+file, atomically: true) {
+        if !finished {
+            NSLog("Failed to write to file: \(file)")
+        }
+    }
+}
 
 func write(pages: [Page]) {
-
+    writePages(pages)
+    
     let pageData = lazy( pages.map(pageOutput) )
     let ps = join("\n", pageData)
     
@@ -28,24 +44,27 @@ func write(pages: [Page]) {
     templateBag["CONTENT"] = ps
     templateBag["LICENSES"] = licenses()
     
+
     writeTemplate(templateBag)
+}
+
+func writePages(pages: [Page]) {
+    let licenseLinks = licenses()
+    
+    
+    
+    for page in pages {
+        var pageString = pageOutput(page)
+        pageString += licenseLinks
+        writeToFile("/pages/"+page.filename, pageString)
+    }
 }
 
 func writeTemplate(bag: [String: String]) {
     let temp = template()
     let substituted = bagSubstitution(temp, bag)
     
-    let fm = NSFileManager.defaultManager()
-    if !fm.fileExistsAtPath("./output") {
-        fm.createDirectoryAtPath("./output", withIntermediateDirectories: true, attributes: nil, error: nil)
-    }
-
-    let data = substituted.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
-    if let finished = data?.writeToFile("output/README.md", atomically: true) {
-        if !finished {
-            NSLog("Failed to write to file")
-        }
-    }
+    writeToFile("README.md", substituted)
 }
 
 func bagSubstitution(template: String, bag: [String: String]) -> String {
