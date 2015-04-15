@@ -16,6 +16,9 @@ func dataFilePaths() -> [String] {
     if let datas = fileManager.contentsOfDirectoryAtPath("data", error: nil) {
         for data in datas {
             if let file = data as? String {
+                if !file.hasSuffix(".json") {
+                    continue
+                }
                 if file == "Template.json" {
                     continue
                 }
