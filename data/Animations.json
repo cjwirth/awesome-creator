@@ -63,6 +63,26 @@
                 { "name": "MZFormSheetController1.png", "size": "49%" },
                 { "name": "MZFormSheetController2.gif", "size": "49%" }
             ]
+        },
+        {
+            "name": "SAHistoryNavigationViewController",
+            "author": "szk-atmosphere",
+            "url": "https://github.com/szk-atmosphere/SAHistoryNavigationViewController",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "SAHistoryNavigationViewController1.gif" }
+            ]
+        },
+        {
+            "name": "WobbleView",
+            "author": "inFullMobile",
+            "url": "https://github.com/inFullMobile/WobbleView",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "wobble-view.gif" }
+            ]
         }
     ]
 }
