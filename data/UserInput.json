@@ -40,6 +40,16 @@
             "images": [
                 { "name": "TextFieldEffects.gif" }
             ]
+        },
+        {
+            "name": "SlackTextViewController",
+            "author": "slackhq",
+            "url": "https://github.com/slackhq/SlackTextViewController",
+            "license": "Apache v2",
+            "language": "Obj-C",
+            "images": [
+                { "name": "SlackTextViewController1.gif" }
+            ]
         }
     ]
 }
