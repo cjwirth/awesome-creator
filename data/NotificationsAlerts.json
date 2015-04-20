@@ -67,5 +67,15 @@
                 { "name": "JFMinimalNotifications3.jpeg" }
             ]
         },
+        {
+            "name": "MGFashionMenuView",
+            "author": "matteogobbi",
+            "url": "https://github.com/matteogobbi/MGFashionMenuView",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MGFashionMenuView1.gif" }
+            ]
+        },
     ]
 }
