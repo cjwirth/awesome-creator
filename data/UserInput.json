@@ -50,6 +50,16 @@
             "images": [
                 { "name": "SlackTextViewController1.gif" }
             ]
+        },
+        {
+            "name": "JVFloatLabeledTextField",
+            "author": "jverdi",
+            "url": "https://github.com/jverdi/JVFloatLabeledTextField",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "JVFloatLabeledTextField1.gif", "size": "100%" }
+            ]
         }
     ]
 }

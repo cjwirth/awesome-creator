@@ -77,5 +77,26 @@
                 { "name": "MGFashionMenuView1.gif" }
             ]
         },
+        {
+            "name": "KLCPopup",
+            "author": "jmascia",
+            "url": "https://github.com/jmascia/KLCPopup",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "KLCPopup1.gif", "size": "49%" }
+            ]
+        },
+        {
+            "name": "MZFormSheetController",
+            "author": "m1entus",
+            "url": "https://github.com/m1entus/MZFormSheetController",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "MZFormSheetController1.png", "size": "49%" },
+                { "name": "MZFormSheetController2.gif", "size": "49%" }
+            ]
+        },
     ]
 }

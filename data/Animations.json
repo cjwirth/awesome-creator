@@ -44,27 +44,6 @@
             ]
         },
         {
-            "name": "KLCPopup",
-            "author": "jmascia",
-            "url": "https://github.com/jmascia/KLCPopup",
-            "license": "MIT",
-            "language": "Obj-C",
-            "images": [
-                { "name": "KLCPopup1.gif", "size": "49%" }
-            ]
-        },
-        {
-            "name": "MZFormSheetController",
-            "author": "m1entus",
-            "url": "https://github.com/m1entus/MZFormSheetController",
-            "license": "MIT",
-            "language": "Obj-C",
-            "images": [
-                { "name": "MZFormSheetController1.png", "size": "49%" },
-                { "name": "MZFormSheetController2.gif", "size": "49%" }
-            ]
-        },
-        {
             "name": "SAHistoryNavigationViewController",
             "author": "szk-atmosphere",
             "url": "https://github.com/szk-atmosphere/SAHistoryNavigationViewController",
@@ -82,6 +61,16 @@
             "language": "Swift",
             "images": [
                 { "name": "wobble-view.gif" }
+            ]
+        },
+        {
+            "name": "CBZSplashView",
+            "author": "callumboddy",
+            "url": "https://github.com/callumboddy/CBZSplashView",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "CBZSplashView1.gif", "size": "49%" }
             ]
         }
     ]
