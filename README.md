@@ -8,9 +8,10 @@ This isn't necessarily meant to be flexible or reusable. It's just a simple way 
 ## Use
 
 1. Open `awesome-creator.xcodeproj` and build the `awesome-creator` executable. 
-2. Copy the `LICENSES.md` `TEMPLATE.md` files and the `data` directory into the same directory as `awesome-creator`.
-3. Run `./awesome-creator`
-4. Check out the resulting `output` directory should be the same as the [cjwirth/awesome-ios-ui][repo] minus the `assets` folder. 
+1. Open the directory that the executable was created in. (Right-click the "awesome-creator" under Products in Xcode, and select "Show in Finder")
+1. Make sure `LICENSES.md`, `TEMPLATE.md`, and the `data` directory were copied into the same directory as the `awesome-creator` executable.
+1. Run `./awesome-creator`
+1. Check out the resulting `output` directory should be the same as the [cjwirth/awesome-ios-ui][repo] minus the `assets` folder. 
 
 My `output` folder is actually the real [cjwirth/awesome-ios-ui][repo] repo. So this the preferred way to contribute (and probably the easiest too!)
 

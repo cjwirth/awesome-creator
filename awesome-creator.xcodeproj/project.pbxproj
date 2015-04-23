@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391109191AE926B8003C8CB0 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = 391109181AE926B6003C8CB0 /* data */; };
+		3911091E1AE926DD003C8CB0 /* LICENSES.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3911091A1AE926D3003C8CB0 /* LICENSES.md */; };
+		3911091F1AE926DD003C8CB0 /* TEMPLATE.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3911091B1AE926D3003C8CB0 /* TEMPLATE.md */; };
 		3952A55F1ADAC1C2000DA1D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952A55E1ADAC1C2000DA1D5 /* main.swift */; };
 		FB0827281ADB5E4E003293E8 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0827271ADB5E4E003293E8 /* models.swift */; };
 		FB08272A1ADB5E77003293E8 /* output.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0827291ADB5E77003293E8 /* output.swift */; };
@@ -15,16 +18,22 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		3952A5591ADAC1C2000DA1D5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				391109191AE926B8003C8CB0 /* data in CopyFiles */,
+				3911091E1AE926DD003C8CB0 /* LICENSES.md in CopyFiles */,
+				3911091F1AE926DD003C8CB0 /* TEMPLATE.md in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		391109181AE926B6003C8CB0 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = SOURCE_ROOT; };
+		3911091A1AE926D3003C8CB0 /* LICENSES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSES.md; sourceTree = SOURCE_ROOT; };
+		3911091B1AE926D3003C8CB0 /* TEMPLATE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TEMPLATE.md; sourceTree = SOURCE_ROOT; };
 		3952A55B1ADAC1C2000DA1D5 /* awesome-creator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "awesome-creator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3952A55E1ADAC1C2000DA1D5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FB0827271ADB5E4E003293E8 /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
@@ -61,6 +70,9 @@
 		3952A55D1ADAC1C2000DA1D5 /* awesome-creator */ = {
 			isa = PBXGroup;
 			children = (
+				391109181AE926B6003C8CB0 /* data */,
+				3911091A1AE926D3003C8CB0 /* LICENSES.md */,
+				3911091B1AE926D3003C8CB0 /* TEMPLATE.md */,
 				3952A55E1ADAC1C2000DA1D5 /* main.swift */,
 				FB0827271ADB5E4E003293E8 /* models.swift */,
 				FB0827291ADB5E77003293E8 /* output.swift */,
