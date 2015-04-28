@@ -1,0 +1,23 @@
+{
+    "name": "Generic container controllers",
+    "repos": [
+        {
+            "name": "SCStackViewController",
+            "author": "stefanceriu",
+            "url": "https://github.com/stefanceriu/SCStackViewController",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+            ]
+        },
+        {
+            "name": "SCPageViewController",
+            "author": "stefanceriu",
+            "url": "https://github.com/stefanceriu/SCPageViewController",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+            ]
+        }
+    ]
+}
