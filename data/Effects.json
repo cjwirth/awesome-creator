@@ -20,6 +20,15 @@
             "images": [
                 { "name": "PulsingHalo1.gif" }
             ]
+        },
+        {
+            "name": "SCSiriWaveformView",
+            "author": "stefanceriu",
+            "url": "https://github.com/stefanceriu/SCSiriWaveformView",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+            ]
         }
     ]
 }
