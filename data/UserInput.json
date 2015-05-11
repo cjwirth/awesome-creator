@@ -60,6 +60,16 @@
             "images": [
                 { "name": "JVFloatLabeledTextField1.gif", "size": "100%" }
             ]
+        },
+        {
+            "name": "ActionSheetPicker-3.0",
+            "author": "skywinder",
+            "url": "https://github.com/skywinder/ActionSheetPicker-3.0",
+            "license": "BSD-3",
+            "language": "Obj-C",
+            "images": [
+                { "name": "ActionSheetPicker3.gif" }
+            ]
         }
     ]
 }
