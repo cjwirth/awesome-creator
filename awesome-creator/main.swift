@@ -8,44 +8,51 @@
 
 import Foundation
 
+enum Error: ErrorType {
+    case InvalidJSON
+}
 
 func dataFilePaths() -> [String] {
     var paths: [String] = []
     let fileManager = NSFileManager.defaultManager()
-
-    if let datas = fileManager.contentsOfDirectoryAtPath("data", error: nil) {
-        for data in datas {
-            if let file = data as? String {
-                if !file.hasSuffix(".json") {
-                    continue
-                }
-                if file == "Template.json" {
-                    continue
-                }
-                paths.append("./data/" + file)
-
+    
+    if let datas = try? fileManager.contentsOfDirectoryAtPath("data") {
+        for file in datas {
+            if !file.hasSuffix(".json") {
+                continue
             }
+            if file == "Template.json" {
+                continue
+            }
+            paths.append("./data/" + file)
         }
     }
-
+    
     return paths
 }
 
 
 func readDataFile(path: String) -> Page {
     let page = Page()
-    var error: NSError?
-    if let
-        data = NSData(contentsOfFile: path),
-        json = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(0), error: &error) as? [String: AnyObject]
-    {
+    let pathURL = NSURL(string: path)
+    
+    do {
+        guard let data = NSData(contentsOfFile: path) else {
+            return page
+        }
+        
+        guard let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(rawValue: 0)),
+            json = jsonObject as? [String: AnyObject]
+            else {
+                throw Error.InvalidJSON
+        }
+        
         page.update(json)
-        page.filename = path.pathComponents.last?.stringByReplacingOccurrencesOfString("json", withString: "md") ?? ""
+        page.filename = pathURL?.pathComponents?.last?.stringByReplacingOccurrencesOfString("json", withString: "md") ?? ""
+    } catch _ {
+        print("NSJSONSerialization error!")
     }
-
-    if let error = error {
-        println(error)
-    }
+    
     return page
 }
 

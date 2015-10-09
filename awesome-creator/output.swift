@@ -9,7 +9,7 @@
 import Foundation
 
 func readFile(filename: String) -> String {
-    let string = NSString(contentsOfFile: filename, encoding: NSUTF8StringEncoding, error: nil) as? String
+    let string = (try? NSString(contentsOfFile: filename, encoding: NSUTF8StringEncoding)) as? String
     return string ?? ""
 }
 
@@ -19,10 +19,16 @@ func template() -> String { return readFile("./TEMPLATE.md") }
 func writeToFile(file: String, string: String) {
     let fm = NSFileManager.defaultManager()
     if !fm.fileExistsAtPath("./output") {
-        fm.createDirectoryAtPath("./output", withIntermediateDirectories: true, attributes: nil, error: nil)
+        do {
+            try fm.createDirectoryAtPath("./output", withIntermediateDirectories: true, attributes: nil)
+        } catch _ {
+        }
     }
     if !fm.fileExistsAtPath("./output/pages") {
-        fm.createDirectoryAtPath("./output/pages", withIntermediateDirectories: true, attributes: nil, error: nil)
+        do {
+            try fm.createDirectoryAtPath("./output/pages", withIntermediateDirectories: true, attributes: nil)
+        } catch _ {
+        }
     }
     
     let data = string.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
@@ -36,15 +42,15 @@ func writeToFile(file: String, string: String) {
 func write(pages: [Page]) {
     writePages(pages)
     
-    let pageData = lazy( pages.map(pageOutput) )
-    let ps = join("\n", pageData)
+    let pageData = pages.map(pageOutput).lazy
+    let ps = pageData.joinWithSeparator("\n")
     
     var templateBag: [String: String] = [:]
     templateBag["LINKS"] = links(pages)
     templateBag["CONTENT"] = ps
     templateBag["LICENSES"] = licenses()
     
-
+    
     writeTemplate(templateBag)
 }
 
@@ -56,21 +62,21 @@ func writePages(pages: [Page]) {
     for page in pages {
         var pageString = pageOutput(page)
         pageString += licenseLinks
-        writeToFile("/pages/"+page.filename, pageString)
+        writeToFile("/pages/"+page.filename, string: pageString)
     }
 }
 
 func writeTemplate(bag: [String: String]) {
     let temp = template()
-    let substituted = bagSubstitution(temp, bag)
+    let substituted = bagSubstitution(temp, bag: bag)
     
-    writeToFile("README.md", substituted)
+    writeToFile("README.md", string: substituted)
 }
 
 func bagSubstitution(template: String, bag: [String: String]) -> String {
     let lines = template.componentsSeparatedByCharactersInSet(NSCharacterSet.newlineCharacterSet())
     
-    let substitutedLines = map(lines) { (line: String) -> String in
+    let substitutedLines = lines.map { (line: String) -> String in
         if line.hasPrefix("[[") && line.hasSuffix("]]") {
             let key = line.stringByReplacingOccurrencesOfString("[[", withString: "").stringByReplacingOccurrencesOfString("]]", withString: "")
             if let value = bag[key] {
@@ -80,28 +86,28 @@ func bagSubstitution(template: String, bag: [String: String]) -> String {
         return line
     }
     
-    return join("\n", substitutedLines)
+    return substitutedLines.joinWithSeparator("\n")
 }
 
 func links(pages: [Page]) -> String {
-    let links = map(pages) { (page: Page) -> String in
+    let links = pages.map { (page: Page) -> String in
         let anchor = page.name.lowercaseString.stringByReplacingOccurrencesOfString(" ", withString: "-").stringByReplacingOccurrencesOfString("/", withString: "")
         return "* [\(page.name)](#\(anchor)) - [file](/pages/\(page.filename))"
     }
     
-    return join("\n", links)
+    return links.joinWithSeparator("\n")
 }
 
 func pageOutput(page: Page) -> String {
     var string = "\(page.name)\n"
-    for i in 0..<count(page.name) {
+    for _ in 0..<page.name.characters.count {
         string += "="
     }
     string += "\nRepo | Demo\n"
     string += "--- | ---\n"
     
     let repoTags = page.repos.map(repoOutput)
-    let repos = join("\n", repoTags)
+    let repos = repoTags.joinWithSeparator("\n")
     
     string += repos
     string += "\n\n"
@@ -112,7 +118,7 @@ func repoOutput(repo: Repo) -> String {
     var string = "[\(repo.name)](\(repo.url)) <br> \(starImgUrl(repo)) <br> Language: \(repo.language) <br> License: [\(repo.license)][\(repo.license)] | "
     
     let imageTags = repo.images.map(imageTag)
-    let images = join(" ", imageTags)
+    let images = imageTags.joinWithSeparator(" ")
     
     string += images
     
@@ -125,7 +131,7 @@ func starImgUrl(repo: Repo) -> String {
 
 func imageTag(image: Image) -> String {
     var imgUrl = "<img src=\"/assets/\(image.name)\""
-    if count(image.size) > 0 {
+    if image.size.characters.count > 0 {
         imgUrl += " width=\"\(image.size)\" "
     }
     imgUrl += ">"
