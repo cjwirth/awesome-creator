@@ -55,6 +55,16 @@
             "images": [
                 { "name": "FFCircularProgressView1.gif" }
             ]
+        },
+        {
+            "name": "GaugeKit",
+            "author": "skywinder",
+            "url": "https://github.com/skywinder/GaugeKit",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "GaugeKit1.gif" }
+            ]
         }
     ]
 }
