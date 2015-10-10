@@ -8,10 +8,6 @@
 
 import Foundation
 
-enum Error: ErrorType {
-    case InvalidJSON
-}
-
 func dataFilePaths() -> [String] {
     var paths: [String] = []
     let fileManager = NSFileManager.defaultManager()
@@ -35,24 +31,19 @@ func dataFilePaths() -> [String] {
 func readDataFile(path: String) -> Page {
     let page = Page()
     let pathURL = NSURL(string: path)
-    
-    do {
-        guard let data = NSData(contentsOfFile: path) else {
+
+    guard let
+        data = NSData(contentsOfFile: path),
+        jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(rawValue: 0)),
+        json = jsonObject as? [String: AnyObject]
+        else {
+            print("NSJSONSerialization error!")
             return page
-        }
-        
-        guard let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(rawValue: 0)),
-            json = jsonObject as? [String: AnyObject]
-            else {
-                throw Error.InvalidJSON
-        }
-        
-        page.update(json)
-        page.filename = pathURL?.pathComponents?.last?.stringByReplacingOccurrencesOfString("json", withString: "md") ?? ""
-    } catch _ {
-        print("NSJSONSerialization error!")
     }
-    
+
+    page.update(json)
+    page.filename = pathURL?.pathComponents?.last?.stringByReplacingOccurrencesOfString("json", withString: "md") ?? ""
+
     return page
 }
 
@@ -60,8 +51,4 @@ func readDataFile(path: String) -> Page {
 let paths = dataFilePaths()
 let pages = paths.map(readDataFile)
 
-
 write(pages)
-
-
-

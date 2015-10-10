@@ -18,17 +18,8 @@ func template() -> String { return readFile("./TEMPLATE.md") }
 
 func writeToFile(file: String, string: String) {
     let fm = NSFileManager.defaultManager()
-    if !fm.fileExistsAtPath("./output") {
-        do {
-            try fm.createDirectoryAtPath("./output", withIntermediateDirectories: true, attributes: nil)
-        } catch _ {
-        }
-    }
     if !fm.fileExistsAtPath("./output/pages") {
-        do {
-            try fm.createDirectoryAtPath("./output/pages", withIntermediateDirectories: true, attributes: nil)
-        } catch _ {
-        }
+        _ = try? fm.createDirectoryAtPath("./output/pages", withIntermediateDirectories: true, attributes: nil)
     }
     
     let data = string.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
@@ -56,8 +47,6 @@ func write(pages: [Page]) {
 
 func writePages(pages: [Page]) {
     let licenseLinks = licenses()
-    
-    
     
     for page in pages {
         var pageString = pageOutput(page)
