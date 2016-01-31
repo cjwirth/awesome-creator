@@ -41,5 +41,15 @@
                 { "name": "AMSlideMenu1.gif" }
             ]
         },
+        {
+            "name": "CariocaMenu",
+            "author": "arn00s",
+            "url": "https://github.com/arn00s/cariocamenu",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "cariocamenu.gif" }
+            ]
+        },
     ]
 }

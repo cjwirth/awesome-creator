@@ -98,5 +98,15 @@
                 { "name": "MZFormSheetController2.gif", "size": "49%" }
             ]
         },
+        {
+            "name": "Notie",
+            "author": "thii",
+            "url": "https://github.com/thii/Notie",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "Notie1.gif", "size": "49%" }
+            ]
+        }
     ]
 }

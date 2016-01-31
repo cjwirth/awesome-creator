@@ -60,6 +60,16 @@
                 { "name": "ASMediaFocusManager1.gif" },
                 { "name": "ASMediaFocusManager2.gif" }
             ]
+        },
+        {
+            "name": "VideoSplashKit",
+            "author": "movielala",
+            "url": "https://github.com/movielala/VideoSplashKit",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "VideoSplash1.gif" }
+            ]
         }
     ]
 }

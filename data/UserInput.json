@@ -70,6 +70,16 @@
             "images": [
                 { "name": "ActionSheetPicker3.gif" }
             ]
+        },
+        {
+            "name": "HTYTextField",
+            "author": "hanton",
+            "url": "https://github.com/hanton/HTYTextField",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "HTYTextField1.gif" }
+            ]
         }
     ]
 }
