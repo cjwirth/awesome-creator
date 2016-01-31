@@ -20,6 +20,16 @@
             "images": [
                 { "name": "PulsingHalo1.gif" }
             ]
+        },
+        {
+            "name": "UITextField-Shake",
+            "author": "andreamazz",
+            "url": "https://github.com/andreamazz/UITextField-Shake",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "UITextField-Shake1.gif" }
+            ]
         }
     ]
 }

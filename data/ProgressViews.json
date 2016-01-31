@@ -65,6 +65,16 @@
             "images": [
                 { "name": "GaugeKit1.gif" }
             ]
-        }
+        },
+        {
+            "name": "NVActivityIndicatorView",
+            "author": "ninjaprox",
+            "url": "https://github.com/ninjaprox/NVActivityIndicatorView",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "NVActivityIndicatorView1.gif" }
+            ]
+        },
     ]
 }

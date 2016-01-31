@@ -1,0 +1,27 @@
+{
+    "name": "Material Design",
+    "repos": [
+        {
+            "name": "Material",
+            "author": "CosmicMind",
+            "url": "https://github.com/CosmicMind/Material",
+            "license": "BSD-3",
+            "language": "Swift",
+            "images": [
+                { "name": "Material1.gif" },
+                { "name": "Material2.gif" },
+                { "name": "Material3.gif" }
+            ]
+        },
+        {
+            "name": "MaterialKit",
+            "author": "nghialv",
+            "url": "https://github.com/nghialv/MaterialKit",
+            "license": "MIT",
+            "language": "Swift",
+            "images": [
+                { "name": "MaterialKit1.gif" }
+            ]
+        }
+    ]
+}

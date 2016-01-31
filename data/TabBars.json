@@ -12,18 +12,6 @@
             ]
         },
         {
-            "name": "M13InfiniteTabBar",
-            "author": "Marxon13",
-            "url": "https://github.com/Marxon13/M13InfiniteTabBar",
-            "license": "MIT",
-            "language": "Obj-C",
-            "images": [
-                { "name": "M13InfiniteTabBar1.gif", "size": "49%" },
-                { "name": "M13InfiniteTabBar2.gif", "size": "49%" },
-                { "name": "M13InfiniteTabBar3.png", "size": "49%" },
-            ]
-        },
-        {
             "name": "FoldingTabBar.iOS",
             "author": "Yalantis",
             "url": "https://github.com/Yalantis/FoldingTabBar.iOS",

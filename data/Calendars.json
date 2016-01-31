@@ -1,0 +1,36 @@
+{
+    "name": "Calendars",
+    "repos": [
+        {
+            "name": "FSCalendar",
+            "author": "WenchaoIOS",
+            "url": "https://github.com/WenchaoIOS/FSCalendar",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "FSCalendar1.jpg" }
+            ]
+        },
+        {
+            "name": "GLCalendarView",
+            "author": "Glow-Inc",
+            "url": "https://github.com/Glow-Inc/JTCalendar",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "GLCalendarView1.gif" }
+            ]
+        },
+        {
+            "name": "JTCalendar",
+            "author": "jonathantribouharet",
+            "url": "https://github.com/jonathantribouharet/JTCalendar",
+            "license": "MIT",
+            "language": "Obj-C",
+            "images": [
+                { "name": "JTCalendar1.gif" },
+                { "name": "JTCalendar2.png" }
+            ]
+        },
+    ]
+}
